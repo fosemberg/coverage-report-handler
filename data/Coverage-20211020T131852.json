@@ -1,0 +1,37 @@
+[
+  {
+    "url": "http://127.0.0.1:8081/",
+    "ranges": [],
+    "text": "<script src=\"index.js\"></script>\n"
+  },
+  {
+    "url": "http://127.0.0.1:8081/index.js",
+    "ranges": [
+      {
+        "start": 96,
+        "end": 197
+      },
+      {
+        "start": 294,
+        "end": 434
+      },
+      {
+        "start": 469,
+        "end": 482
+      },
+      {
+        "start": 511,
+        "end": 574
+      },
+      {
+        "start": 598,
+        "end": 606
+      },
+      {
+        "start": 630,
+        "end": 655
+      }
+    ],
+    "text": "function unused() {\n  console.log('unused1');console.log('unused2');\n  console.log('unused3');\n}\n\nfunction used() {\n  console.log('used1');console.log('used2');\n  console.log('used3');\n}\n\nused();\n\nfunction unused2() {\n  console.log('unused1');console.log('unused2');\n  console.log('unused3');\n}\n\nfunction used2() {\n  console.log('used1');console.log('used2');\n  console.log('used3');\n}\n\nused2();\n\nif (true) {\n  console.log('used4');\n} else {\n  console.log('unused4');\n}\n\nif (false) {\n  console.log('unused5');\n} else {\n  console.log('used5');\n}\n\ntrue ? console.log('used6') : console.log('unused6');\nfalse ? console.log('unused7') : console.log('used7');\n"
+  }
+]
