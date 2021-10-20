@@ -1,6 +1,6 @@
-# coverage obrainer
+# coverage obtainer
 
-show how to use Coverage report to remove unused code
+Show how to use the **Coverage report** to remove unused code
 
 ## instruction
 - run test page
@@ -15,4 +15,4 @@ show how to use Coverage report to remove unused code
   ```
 - check result in build folder
 - yes, we have only the js code used, but unfortunately it is not valid. you can manually fix the errors and then everything will be ok.
-- 
+
