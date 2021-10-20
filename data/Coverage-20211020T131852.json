@@ -1,11 +1,11 @@
 [
   {
-    "url": "http://127.0.0.1:8081/",
+    "url": "http://127.0.0.1:8080/",
     "ranges": [],
     "text": "<script src=\"index.js\"></script>\n"
   },
   {
-    "url": "http://127.0.0.1:8081/index.js",
+    "url": "http://127.0.0.1:8080/index.js",
     "ranges": [
       {
         "start": 96,
